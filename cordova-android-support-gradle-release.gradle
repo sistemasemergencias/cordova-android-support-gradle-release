@@ -1,11 +1,11 @@
 repositories{
+  mavenCentral()
   // Google APIs are now hosted at Maven
   maven {
     url 'https://maven.google.com'
-  },
-  maven { 
-    url 'https://dl.bintray.com/android/android-tools' 
   }
+  maven {  url 'https://dl.bintray.com/android/android-tools' }
+  jcenter()
 }
 
 def ANDROID_SUPPORT_VERSION = "27.+"
